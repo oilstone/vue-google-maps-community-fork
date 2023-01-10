@@ -2,9 +2,9 @@
 
 In order to use custom renderer function and clustering algorithm, you will need to do the following step before:
 
-## Install `@googlemaps/makerclusterer` package into your own project
+## Install `oilstone-js-markerclusterer` package into your own project
 
-Use `npm install @googlemaps/markerclusterer` to install the library into your project.
+Use `npm install oilstone-js-markerclusterer` to install the library into your project.
 
 Note: this is required because it was the best option for us to make Clustering viable. The original version of this library wasn't supporting the new MarkerClustering package version, so we had to make adjustments. You can read more about it in [this PR](https://github.com/NathanAP/vue-google-maps-community-fork/pull/19).
 
@@ -34,7 +34,7 @@ Following this example will help you create your own render function and cluster
   </GMapMap>
 </template>
 <script>
-  import { GridAlgorithm } from '@googlemaps/markerclusterer'
+  import { GridAlgorithm } from 'oilstone-js-markerclusterer'
 
   export default {
     name: 'App',

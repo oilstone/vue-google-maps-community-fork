@@ -8,7 +8,7 @@ import {
   DefaultRenderer,
   MarkerClusterer,
   SuperClusterAlgorithm,
-} from '@googlemaps/markerclusterer'
+} from 'oilstone-js-markerclusterer'
 import buildComponent from './build-component.js'
 
 const props = {
