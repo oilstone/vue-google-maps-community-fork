@@ -1,7 +1,7 @@
 {
   "name": "oilstone-vue-google-maps-community-fork",
   "description": "Google Maps components for VueJS 3 maintained by the community",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "main": "src/main.js",
   "keywords": [
@@ -51,7 +51,7 @@
   },
   "types": "types/index.d.ts",
   "dependencies": {
-    "oilstone-js-markerclusterer": "^1.0.1"
+    "oilstone-js-markerclusterer": "^1.0.3"
   },
   "directories": {
     "doc": "docs",
