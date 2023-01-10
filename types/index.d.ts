@@ -1,1 +1,1 @@
-declare module 'vue-google-maps-community-fork';
+declare module 'oilstone-vue-google-maps-community-fork';
